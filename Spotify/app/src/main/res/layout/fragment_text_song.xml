@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorbg_main">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/img_arrow_down"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_keyboard_double_arrow_down"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/tv_song"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="20dp"
+            android:layout_below="@+id/img_arrow_down"
+            android:text="lời bài hát"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+
+    </RelativeLayout>
+
+</androidx.core.widget.NestedScrollView>

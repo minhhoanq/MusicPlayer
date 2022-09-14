@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ActivitySong"
+        android:background="@drawable/custom_backgroud">
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardview"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            app:cardCornerRadius="150dp"
+            android:layout_marginTop="70dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/imgViewSong"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:src="@drawable/wnsong"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/toolbaractivitysong" />
+        </androidx.cardview.widget.CardView>
+
+        <RelativeLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="380dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardview">
+
+            <TextView
+                android:id="@+id/tvnamesong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3107"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvtitlesong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvnamesong"
+                android:text="Masew, B Ray, REDT, Ý Tiên"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tvStartTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_toStartOf="@+id/seekbar"
+                android:text="00:00"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tvEndTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_toEndOf="@+id/seekbar"
+                android:text="04:16"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:layout_alignParentBottom="true"/>
+
+            <SeekBar
+                android:id="@+id/seekbar"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvtitlesong"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="43dp"/>
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/imagePlay"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/custom_btn_bg"
+            android:padding="12dp"
+            android:src="@drawable/ic_baseline_play"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+        <ImageView
+            android:id="@+id/imgPrev"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/ic_baseline_skip_previous"
+            app:layout_constraintEnd_toStartOf="@+id/imagePlay"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+        <ImageView
+            android:id="@+id/imgNext"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/ic_baseline_skip_next"
+            app:layout_constraintStart_toEndOf="@+id/imagePlay"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+        <TextView
+            android:id="@+id/tvloibaihat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:layout_marginStart="20dp"
+            android:text="Lời bài hát"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <FrameLayout
+        android:id="@+id/frame_text"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_alignParentBottom="true"
+        />
+
+</RelativeLayout>

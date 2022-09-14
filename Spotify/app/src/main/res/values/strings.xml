@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Spotify</string>
+    <string name="home_string">Trang chủ</string>
+    <string name="search_string">Tìm kiếm</string>
+    <string name="libs_string">Thư viện</string>
+    <string name="pre_string">Premium</string>
+
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="chu_de_fragment">Chủ đề hot</string>
+    <string name="the_loai_fragment">Thể loại bạn thích</string>
+    <string name="nghe_si_fragment">Danh Sách Nghệ Sĩ</string>
+    <string name="thinh_hanh_fragment">Thịnh hành</string>
+
+    //string navigation view
+    <string name="string_notify">Thông báo</string>
+    <string name="string_play_list">Danh sách phát</string>
+    <string name="string_my_song">Bài hát của bạn</string>
+    <string name="string_settings">Cài đặt</string>
+    <string name="string_report">Báo cáo</string>
+    <string name="string_help">Hỗ trợ</string>
+
+    <string name="string_em_gai_mua">"Bài hát: Em Gái Mưa (Piano Cover) - Mr.Siro\n"
+                "\n"
+                "Mưa trôi cả bầu trời nắng, trượt theo những nỗi buồn\n"
+                "Thấm ướt lệ sầu môi đắng vì đánh mất hy vọng\n"
+                "Lần đầu gặp nhau dưới mưa, trái tim rộn ràng bởi ánh nhìn\n"
+                "Tình cảm *** mưa thấm lâu, em nào ngờ\n"
+                "\n"
+                "Mình hợp nhau đến như vậy thế nhưng không phải là yêu!\n"
+                "Và em muốn hỏi anh rằng \"chúng ta là thế nào?\"\n"
+                "Rồi lặng người đến vô tận, trách sao được sự tàn nhẫn\n"
+                "Anh trót vô tình thương em như là em gái\n"
+                "\n"
+                "[Chorus:]\n"
+                "Đừng lo lắng về em khi mà em vẫn còn yêu anh\n"
+                "Càng xa lánh, càng trống vắng tim cứ đau và nhớ lắm\n"
+                "Đành phải buông hết tất cả thôi, nụ cười mỉm sau bờ môi\n"
+                "Ấm áp dịu dàng vai anh, em đã bao lần yên giấc\n"
+                "\n"
+                "Nhìn trên cao khoảng trời yêu mà em lỡ dành cho anh\n"
+                "Giờ mây đen quyện thành bão, giông tố đang dần kéo đến\n"
+                "Chồi non háo hức đang đợi mưa, rất giống em ngày xưa\n"
+                "Mưa trôi để lại ngây thơ, trong giấc mơ buốt lạnh\n"
+                "\n"
+                "(Nhớ nhưng chẳng thể ở bên\n"
+                "Nuốt nước mắt lòng buồn tênh\n"
+                "You can not feel my love)\n"
+                "\n"
+                "Tựa như yêu nhưng đến khi ai đó chối từ\n"
+                "Trời đất như rung chuyển một người vỡ mộng."</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+</resources>

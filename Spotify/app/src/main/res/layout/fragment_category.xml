@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".category.CategoryFragment">
+
+    <LinearLayout
+        android:id="@+id/layout_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/view_menu"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="360dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ic_settings" />
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="167dp"
+            android:layout_marginTop="30dp" />
+
+        <me.relex.circleindicator.CircleIndicator
+            android:id="@+id/indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp" />
+
+        <fragment
+            android:id="@+id/fragmenttheloai"
+            android:name="com.example.spotify.Fragment.TheLoaiFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <fragment
+            android:id="@+id/fragmentnghesi"
+            android:name="com.example.spotify.Fragment.NgheSiFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <fragment
+            android:id="@+id/fragmentbxh"
+            android:name="com.example.spotify.Fragment.BangXepHangFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <fragment
+            android:id="@+id/fragmentthinhhanh"
+            android:name="com.example.spotify.Fragment.ThinhHanhFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <fragment
+            android:id="@+id/fragmentchude"
+            android:name="com.example.spotify.Fragment.ChuDeFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/item_home"
+        android:title="@string/home_string"
+        android:icon="@drawable/ic_baseline_home"/>
+    <item android:id="@+id/item_search"
+        android:title="@string/search_string"
+        android:icon="@drawable/ic_baseline_search"/>
+    <item android:id="@+id/libs_item"
+        android:title="@string/libs_string"
+        android:icon="@drawable/ic_baseline_library_music"/>
+    <item android:id="@+id/premium_item"
+        android:title="@string/pre_string"
+        android:icon="@drawable/spotify"/>
+</menu>
